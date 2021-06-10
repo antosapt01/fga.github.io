@@ -1,0 +1,421 @@
+html, body{
+    margin: 0px;
+    padding:0px;
+    
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 500px;
+}
+.header{
+    background-color: rgb(46, 1, 46,0.3);
+    width: 100%;
+    z-index: 1;
+}
+.left p{
+    padding: 5px 20px;
+    color:#e4e1f2;
+    letter-spacing: 2px;
+    font-weight: bold;
+    float: left;
+}
+.right{
+    padding: 5px 0px;
+    float: right;
+    left: 930px;
+    top:5px;
+    font-weight: bold;
+   
+}
+.right ul{
+    display: flex;
+    list-style: none;
+    
+}
+.right li{
+    margin-right: 35px;
+}
+.right li a{
+    text-decoration: none;
+    color:#e4e1f2;
+    opacity: 0.9;
+}
+.main{
+    /* background: radial-gradient(circle,rgb(252, 252, 252),rgb(235, 235, 231),rgb(182, 192, 182)); */
+    /* background-image: radial-gradient(closest-side at 72% 55%, rgba(77,115,226,255), rgba(60,90,210,255),rgba(49,79,201,255)); */
+    background:  -webkit-linear-gradient(-45deg, rgba(120, 15, 235, 0.9) 80%,rgba(120, 155, 255, 0.9) 80%, rgb(35, 197, 202) 0%);
+    /* background-image: url('img/Sunset.jpeg');
+    background-size: cover; */
+    height: 650px;
+    
+}
+.fa{
+    width: 20px;
+    height: 20px;
+}
+
+.header .menu-icon{
+  color: white;
+  float: right;
+  padding: 20px 0;
+  margin-right: 15px;
+  display: none;
+}
+.box{
+    margin: auto;
+    width: 85%;
+    height: 60%;
+    background-color: inherit;
+    top: 20%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+}
+.gambar{
+    
+    width: 50%;
+}
+.gambar img{
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+}
+.isi{
+    padding-top: 30px;
+    float: left;
+    color: white;
+    width: 50%;
+    padding-left: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.isi h4{
+    letter-spacing: 2px;
+    padding-bottom: -10px;
+}
+.isi h1{
+    font-size: 35px;
+    letter-spacing: 3px;
+    line-height: 15px;
+}
+.isi .subisi{
+    padding-top: 1px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.button{
+    padding: 10px 0px;
+}
+.btn{
+    
+    width: 200px;
+    height: 50px;
+    color: white;
+}
+
+.learn{
+    background-color: rgb(240, 46, 46,0.8);
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+.hire{
+    background-color: rgba(26, 3, 151, 0.5);
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+.learn:hover{
+    background-color: rgb(240, 46, 46,1);
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.hire:hover{
+    background-color:rgb(26, 3, 151,1);
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.content{
+    padding: 20px 200px;
+    text-align: justify;
+    background-color: rgb(236, 228, 228);
+    line-height: 22px;
+    height: 400px;
+ }
+ .content h3{
+    text-align: left;
+ }
+.galery{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+       
+}
+
+.galery img{
+    padding: 5px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+.one{
+    width: 100%;
+    height: 100%;
+}
+
+.two{
+    width: 40%;
+    height: 100%;
+}
+
+.galery .gal1{
+  
+    width: 100%;
+    
+}   
+.galery .gal2{
+  
+    width: 100%;
+    
+}
+.galery .gal3{
+  
+    width: 100%;
+    
+}
+.service{
+    height: 350px;
+    background-color: coral;
+}  
+.boombox{
+    text-align: center;
+    margin: 20px;
+    
+}
+.boombox .boxs{
+    float: left;
+    width: 50%;
+    box-sizing: border-box; 
+    margin-top:30px;
+    box-shadow: 0px 3px #69a9f3;
+    transition: all 0.7s;
+    border-radius: 0px 0px 20px 0px; 
+
+}
+.boxs p{
+    margin: 20px;
+    font-size: 14px;
+    color:rgb(226, 226, 226);
+    border-radius: 3px;
+}
+.boxs h3{
+    text-align: center;
+    margin: 20px;
+    color: rgba(0, 14, 78, 0.849);
+}
+.boxs img{
+    padding-top: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+.boxs:hover{
+    background-color: rgba(81, 96, 231, 0.8);
+    border-radius: 15px;
+    color:white;
+    cursor: pointer;
+
+}
+.boxs:active{
+    background-color: crimson;
+    transition: all 0.2s;
+}
+.bgcontent{
+    background:  -webkit-linear-gradient(-45deg, rgba(55, 230, 235, 1) 0%,rgba(120, 155, 255, 0.9) 10%, rgba(120, 15, 235, 0.9) 80%);
+    padding: 20px 200px;
+    text-align: justify;
+    line-height: 23px;
+    padding-bottom: 55px;
+}
+.heading h2{
+    color:rgb(226, 226, 226);
+}
+.talk{
+    padding: 10px 200px;
+    background-color: rgb(236, 228, 228);
+
+}
+.talk1{
+    float: left;
+    padding-left: 30px;
+}
+.talk1 h2{
+
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein {
+    from {
+      width: 100%;
+      color: rgb(236, 228, 228);
+      margin-left: 90%;
+
+      
+    }
+    75% {
+        font-size:100%;
+        margin-left: 0%;
+        width: 150%;
+        color: rgba(94, 12, 182, 0.9);
+      }
+    to {
+        font-size:100%;
+
+      color: black;
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.talk img{
+    float: right;
+    width:50px;
+    height:50px;
+    padding-top: 120px;
+    padding-right: 50px;
+    transition: all 1s;
+    position: relative;
+    bottom: 50px;
+
+    animation-duration: 3s;
+    animation-name: imgin;
+    animation-iteration-count: infinite;    
+}
+@keyframes imgin {
+    from {
+           
+    width:50px;
+    height:50px;
+    }
+    75% {
+
+    width:30px;
+    height:30px;
+      }
+    to {
+
+    width:50px;
+    height:50px;
+
+    }
+  }
+.clear{
+    clear: both;
+}
+.bgfooter{
+    background-color:rgba(94, 12, 182, 0.9) ;
+    padding: 20px 60px;
+   
+}
+.footer{
+    height: auto;
+    width: 100%;
+    padding: 0 0px;
+
+}
+.footer .kotak{
+    text-align: center;
+}
+.sub{
+
+    float: left;
+    width: 25%;
+    color: #dcdedf;
+    
+}
+
+.sub img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+.sub span img{
+    width: 30px;
+    height: 30px;
+    box-shadow: 4px 4px rgb(11, 0, 110);
+    border-radius: 50%;
+}
+.sub span{
+    margin-right:15px;
+    
+}
+.sub .project img{
+    width: 60px;
+    height: 60px;
+    text-align: left;
+
+}
+
+.sub hr{
+    width: 30%;
+}
+.footer .subscribe{
+    text-align: center;
+    color: #dcdedf;
+    padding: 20px 0;
+}
+.subscribe input{
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.322);
+    height: 27px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.subscribe p{
+    padding-bottom: 5px;
+}
+.subscribe .kirim{
+    background-color: rgb(204, 22, 22);
+    text-decoration: none;
+    padding: 5px 10px;
+    color:rgb(226, 226, 226);
+    border-radius: 10px;
+}
+.down{
+    background-color: rgba(74, 0, 153, 0.9) ;
+    height: 70px;
+}
+.kiri{
+    float: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: wheat;
+}
+.kanan{
+    float: right;
+    
+}
+.kanan ul{
+    display: flex;
+    margin-right: 50px;
+}
+.kanan li{
+    list-style: none;
+    margin-right: 10px;
+    color: white;
+    opacity: 0.8;
+
+}

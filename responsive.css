@@ -1,0 +1,269 @@
+
+@media all and (max-width: 1000px){
+    .main{
+        height: 450px;
+    }
+    .box{
+        width:95%;
+        top: 18%;
+    }
+    .talk{
+    padding: 10px 70px;
+
+        /* padding: 0px 0px;
+        padding-right: 70px; */
+    }
+   
+    .talk img{
+        width:30px;
+        height:30px;
+        
+        position: relative;
+        bottom: 50px;
+    }
+    .talk h3{
+        font-size: 14px;
+    }
+    .talk p{
+        font-size: 12px;
+    }
+
+    .content{
+        padding: 20px 80px;
+        line-height: 23px;
+     }
+     .bgcontent{
+        padding: 20px 40px;
+        line-height: 23px;
+     }
+    .isi h4{
+        font-size: 10px;
+    }
+    .isi {
+        font-size: 10px;
+    }
+    .isi h1{
+        font-size: 17px;
+        line-height: 15px;
+    }
+    .isi .subisi{
+        padding-top: 0px;
+        font-size: 10px;
+
+    }
+    
+    .learn:hover{
+        font-size: 12px;
+    }
+    .hire:hover{
+        font-size: 12px;
+    }
+    .header{
+        font-size: 12px;
+    }
+    .footer{
+        height: fit-content;    
+    }
+    .footer .subscribe{
+        padding: 20px 20px;
+    }
+   
+    .sub{
+        width: 50%;
+        
+        
+    }
+
+    .down{
+        text-align: center;
+    }
+    .kiri{
+    float: none;
+    padding-left: 0;
+
+    }
+    .kanan{
+    float: none;
+    }
+    .kanan ul{
+    display: inline-flex;
+    margin-right: 0px;
+    margin: auto;
+    }
+@keyframes slidein {
+    from {
+      width: 100%;
+      color: rgb(236, 228, 228);
+      font-size:60%;
+      margin-left: 90%;
+
+      
+    }
+    75% {
+        font-size:100%;
+        margin-left: 0%;
+        width: 100%;
+        color: rgba(94, 12, 182, 0.9);
+      }
+    to {
+      color: black;
+      font-size:100%;
+
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  @keyframes imgin {
+    from {
+           
+    width:30px;
+    height:30px;
+    }
+    75% {
+
+    width:20px;
+    height:20px;
+      }
+    to {
+
+    width:30px;
+    height:30px;
+
+    }
+  }
+    
+}
+
+@media all and (max-width: 670px){
+    .box{
+        width: 100%;
+        top: 8%;
+    }
+    .main{
+        height: 400px;
+    }
+    .gambar img{
+        display: none;
+    }
+    
+    .isi h1{
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .isi h4{
+        font-size: 10px;
+    }
+    .isi h1{
+        width: 100%;
+        line-height: 20px;
+    }
+    .header .menu-icon{
+        display: inline-block;
+    }
+    .right{
+        display: none;  
+    }
+ 
+    .learn{
+        font-size: 10px;
+    }
+   
+    .hire{
+        font-size: 10px;
+    
+    }
+    .learn:hover{
+        font-size: 12px;
+    }
+    .hire:hover{
+        font-size: 12px;
+    }
+    .boombox .boxs{
+        width: 100%;
+        box-sizing: border-box;     
+    }
+    .heading{
+        padding-top: 20px;
+    }
+    .galery{
+        
+        display: inline;
+            }
+    .one{
+        width: 100%;
+        height: 200px;
+    }
+    .two{
+        width: 100%;
+        height: 200px;
+        
+    }
+    .bgcontent{
+        padding: 20px 80px;
+        line-height: 23px;
+     }
+     .talk{
+        /* padding: 0px 50px; */
+        padding: 10px 60px;
+    
+    }
+    .talk img{
+        width:20px;
+        height:20px;
+        position: relative;
+        bottom: 50px;
+    }
+    .talk h3{
+        font-size: 13px;
+    }
+    .talk p{
+        font-size: 13px;
+    }
+
+    .footer .subscribe{
+        padding: 20px 20px;
+    }
+   
+    .sub{
+        width: 100%;
+        }
+     .subscribe input{
+        margin-bottom: 20px;
+        width: 100%;
+     }   
+     .down{
+                text-align: center;
+     }
+     .kiri{
+         float: none;
+    padding-left: 0;
+
+     }
+    .kanan{
+         float: none;
+    }
+    .kanan ul{
+        display: inline-flex;
+        margin-right: 0px;
+        margin: auto;
+    }
+    
+    @keyframes imgin {
+        from {
+               
+        width:20px;
+        height:20px;
+        }
+        75% {
+    
+        width:15px;
+        height:20px;
+          }
+        to {
+    
+        width:20px;
+        height:20px;
+    
+        }
+      }
+}   
